@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+// var date string /* uma variável até pode ser declarada sem um valor "padrão" */
+// date = "13/01/2004 18:50" /* porém não é possível mudar o valor dela fora do contexto de uma função */
+
 /*
 	Para declarar variáveis globais/no "package-level" se utiliza a keyword "var" fora
 	do contexto de uma função
