@@ -2,6 +2,7 @@ package main // definir a package (desconheço isso, deve ser tipo as namespaces
 
 import "fmt" // importamos a biblioteca que controla o input/output do go (baseado em C)
 
+// o interpretador precisa de uma função para ser o ponto de partida da aplicação
 func main() {
 	/*
 		No go as funções podem ter múltiplos retornos, por isso é possível definir
